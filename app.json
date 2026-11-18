@@ -1,25 +1,29 @@
 {
   "expo": {
-    "name": "berber",
+    "name": "Salon Makas",
     "slug": "berber",
-    "version": "1.0.0",
+    "version": "2.0.1",
+    "plugins": [
+      "./plugins/withAndroidBuild.cjs",
+      "expo-status-bar"
+    ],
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/salonum-icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 6,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "foregroundImage": "./assets/salonum-icon.png",
+        "backgroundColor": "#193C32"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.berber.randevu"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/salonum-icon.png"
     }
   }
 }

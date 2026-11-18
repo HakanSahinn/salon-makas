@@ -1,0 +1,5 @@
+Built-in image_gen tool.
+Use case: logo-brand. Asset type: final Android app launcher icon for a Turkish barber appointment app named Salonum. Create a crisp professional square 1024 by 1024 bitmap icon: a single elegant pair of open barber scissors, warm ivory and subtle champagne gold on a solid deep forest green (#193C32) background. Modern flat graphic silhouette with clean geometry, thick clearly legible shapes at small launcher sizes, centered scissors with generous safe margins (entire scissors inside central 60 percent so adaptive circular cropping remains safe). Full bleed square background, no rounded outer corners, no border, no letters, no typography, no watermark, no mockup, no shadows, no other objects. Two finger loops and recognizable open blades, refined symmetrical balanced composition.
+
+Final asset: assets/salonum-icon.png. Header derivative: assets/salonum-brand.png.
+Project asset sizes were prepared with Expo image-utils; original generated image was preserved.
